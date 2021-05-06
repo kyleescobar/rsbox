@@ -7,6 +7,7 @@ import io.netty.channel.ChannelOption
 import io.netty.channel.nio.NioEventLoopGroup
 import io.netty.channel.socket.nio.NioServerSocketChannel
 import io.rsbox.common.Injectable
+import io.rsbox.engine.net.pipeline.GameChannelInitializer
 import org.koin.core.component.inject
 import org.tinylog.kotlin.Logger
 import java.net.InetSocketAddress
